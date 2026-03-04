@@ -36,3 +36,6 @@ Issues = "https://github.com/y4du-em/task-tracker-mcp/issues"
 
 [project.scripts]
 task-tracker-mcp = "task_tracker_mcp.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/task_tracker_mcp"]
