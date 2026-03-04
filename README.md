@@ -49,7 +49,7 @@ claude mcp add task-tracker -- uvx task-tracker-mcp
 ### From source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/task-tracker-mcp.git
+git clone https://github.com/y4du-em/task-tracker-mcp.git
 cd task-tracker-mcp
 claude mcp add task-tracker -- uv run --with mcp --with pydantic src/task_tracker_mcp/server.py
 ```
@@ -150,7 +150,7 @@ For commits without explicit scope, the server infers scope from keywords in the
 ## Development
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/task-tracker-mcp.git
+git clone https://github.com/y4du-em/task-tracker-mcp.git
 cd task-tracker-mcp
 pip install -e .
 pytest tests/
