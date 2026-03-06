@@ -6,4 +6,4 @@ noise (merges, tests, docs, config), groups related commits by scope,
 and surfaces only the main features and significant fixes.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
